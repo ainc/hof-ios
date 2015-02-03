@@ -37,7 +37,7 @@ class Behind: ViewController {
     //behindName.namePicked = "asdlkfhj"
  */
     
-    
+    //akljhf
     var name:String 
     
     init(namePicked: String) {
