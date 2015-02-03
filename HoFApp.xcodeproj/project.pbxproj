@@ -9,10 +9,22 @@
 /* Begin PBXBuildFile section */
 		4A8255011A7A7B3500CA8C02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8255001A7A7B3500CA8C02 /* AppDelegate.swift */; };
 		4A8255031A7A7B3500CA8C02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8255021A7A7B3500CA8C02 /* ViewController.swift */; };
-		4A8255061A7A7B3500CA8C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8255041A7A7B3500CA8C02 /* Main.storyboard */; };
 		4A8255081A7A7B3500CA8C02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8255071A7A7B3500CA8C02 /* Images.xcassets */; };
 		4A82550B1A7A7B3500CA8C02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8255091A7A7B3500CA8C02 /* LaunchScreen.xib */; };
 		4A8255171A7A7B3500CA8C02 /* HoFAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8255161A7A7B3500CA8C02 /* HoFAppTests.swift */; };
+		4A8255211A7A7B9100CA8C02 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8255201A7A7B9100CA8C02 /* CollectionViewCell.swift */; };
+		4A82552A1A7A7BBA00CA8C02 /* Ankur Gopal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A8255231A7A7BBA00CA8C02 /* Ankur Gopal.jpg */; };
+		4A82552B1A7A7BBA00CA8C02 /* Chris Sullivan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A8255241A7A7BBA00CA8C02 /* Chris Sullivan.jpg */; };
+		4A82552C1A7A7BBA00CA8C02 /* James Booth.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8255251A7A7BBA00CA8C02 /* James Booth.png */; };
+		4A82552D1A7A7BBA00CA8C02 /* Jennifer Mackin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A8255261A7A7BBA00CA8C02 /* Jennifer Mackin.jpg */; };
+		4A82552E1A7A7BBA00CA8C02 /* John Williams.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A8255271A7A7BBA00CA8C02 /* John Williams.jpg */; };
+		4A82552F1A7A7BBA00CA8C02 /* Junior Bridgeman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A8255281A7A7BBA00CA8C02 /* Junior Bridgeman.jpg */; };
+		4A8255301A7A7BBA00CA8C02 /* Nate Morris.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8255291A7A7BBA00CA8C02 /* Nate Morris.png */; };
+		4A8255321A7A883E00CA8C02 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8255311A7A883E00CA8C02 /* CollectionHeaderView.swift */; };
+		4A98B0731A7BFCA900B72611 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98B0721A7BFCA900B72611 /* InfoViewController.swift */; };
+		4A9A6E841A7BF2FE008A9AE2 /* InfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A6E831A7BF2FE008A9AE2 /* InfoPageViewController.swift */; };
+		4AACCD1A1A8138A400116ECE /* Behind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AACCD191A8138A400116ECE /* Behind.swift */; };
+		4AACCD1C1A8146CD00116ECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AACCD1B1A8146CD00116ECE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +42,24 @@
 		4A8254FF1A7A7B3500CA8C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A8255001A7A7B3500CA8C02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A8255021A7A7B3500CA8C02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A8255051A7A7B3500CA8C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A8255071A7A7B3500CA8C02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A82550A1A7A7B3500CA8C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4A8255101A7A7B3500CA8C02 /* HoFAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoFAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8255151A7A7B3500CA8C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A8255161A7A7B3500CA8C02 /* HoFAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoFAppTests.swift; sourceTree = "<group>"; };
+		4A8255201A7A7B9100CA8C02 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		4A8255231A7A7BBA00CA8C02 /* Ankur Gopal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ankur Gopal.jpg"; sourceTree = "<group>"; };
+		4A8255241A7A7BBA00CA8C02 /* Chris Sullivan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chris Sullivan.jpg"; sourceTree = "<group>"; };
+		4A8255251A7A7BBA00CA8C02 /* James Booth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "James Booth.png"; sourceTree = "<group>"; };
+		4A8255261A7A7BBA00CA8C02 /* Jennifer Mackin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jennifer Mackin.jpg"; sourceTree = "<group>"; };
+		4A8255271A7A7BBA00CA8C02 /* John Williams.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "John Williams.jpg"; sourceTree = "<group>"; };
+		4A8255281A7A7BBA00CA8C02 /* Junior Bridgeman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Junior Bridgeman.jpg"; sourceTree = "<group>"; };
+		4A8255291A7A7BBA00CA8C02 /* Nate Morris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nate Morris.png"; sourceTree = "<group>"; };
+		4A8255311A7A883E00CA8C02 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		4A98B0721A7BFCA900B72611 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		4A9A6E831A7BF2FE008A9AE2 /* InfoPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPageViewController.swift; sourceTree = "<group>"; };
+		4AACCD191A8138A400116ECE /* Behind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Behind.swift; sourceTree = "<group>"; };
+		4AACCD1B1A8146CD00116ECE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +86,7 @@
 				4A8254FD1A7A7B3500CA8C02 /* HoFApp */,
 				4A8255131A7A7B3500CA8C02 /* HoFAppTests */,
 				4A8254FC1A7A7B3500CA8C02 /* Products */,
+				4A8255221A7A7BBA00CA8C02 /* Famers */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +104,12 @@
 			children = (
 				4A8255001A7A7B3500CA8C02 /* AppDelegate.swift */,
 				4A8255021A7A7B3500CA8C02 /* ViewController.swift */,
-				4A8255041A7A7B3500CA8C02 /* Main.storyboard */,
+				4A8255201A7A7B9100CA8C02 /* CollectionViewCell.swift */,
+				4AACCD1B1A8146CD00116ECE /* Main.storyboard */,
+				4A8255311A7A883E00CA8C02 /* CollectionHeaderView.swift */,
+				4A9A6E831A7BF2FE008A9AE2 /* InfoPageViewController.swift */,
+				4A98B0721A7BFCA900B72611 /* InfoViewController.swift */,
+				4AACCD191A8138A400116ECE /* Behind.swift */,
 				4A8255071A7A7B3500CA8C02 /* Images.xcassets */,
 				4A8255091A7A7B3500CA8C02 /* LaunchScreen.xib */,
 				4A8254FE1A7A7B3500CA8C02 /* Supporting Files */,
@@ -110,6 +140,20 @@
 				4A8255151A7A7B3500CA8C02 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A8255221A7A7BBA00CA8C02 /* Famers */ = {
+			isa = PBXGroup;
+			children = (
+				4A8255231A7A7BBA00CA8C02 /* Ankur Gopal.jpg */,
+				4A8255241A7A7BBA00CA8C02 /* Chris Sullivan.jpg */,
+				4A8255251A7A7BBA00CA8C02 /* James Booth.png */,
+				4A8255261A7A7BBA00CA8C02 /* Jennifer Mackin.jpg */,
+				4A8255271A7A7BBA00CA8C02 /* John Williams.jpg */,
+				4A8255281A7A7BBA00CA8C02 /* Junior Bridgeman.jpg */,
+				4A8255291A7A7BBA00CA8C02 /* Nate Morris.png */,
+			);
+			path = Famers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +236,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A8255061A7A7B3500CA8C02 /* Main.storyboard in Resources */,
+				4A82552B1A7A7BBA00CA8C02 /* Chris Sullivan.jpg in Resources */,
+				4AACCD1C1A8146CD00116ECE /* Main.storyboard in Resources */,
+				4A82552E1A7A7BBA00CA8C02 /* John Williams.jpg in Resources */,
+				4A82552F1A7A7BBA00CA8C02 /* Junior Bridgeman.jpg in Resources */,
 				4A82550B1A7A7B3500CA8C02 /* LaunchScreen.xib in Resources */,
+				4A82552A1A7A7BBA00CA8C02 /* Ankur Gopal.jpg in Resources */,
+				4A8255301A7A7BBA00CA8C02 /* Nate Morris.png in Resources */,
+				4A82552C1A7A7BBA00CA8C02 /* James Booth.png in Resources */,
 				4A8255081A7A7B3500CA8C02 /* Images.xcassets in Resources */,
+				4A82552D1A7A7BBA00CA8C02 /* Jennifer Mackin.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AACCD1A1A8138A400116ECE /* Behind.swift in Sources */,
 				4A8255031A7A7B3500CA8C02 /* ViewController.swift in Sources */,
+				4A8255321A7A883E00CA8C02 /* CollectionHeaderView.swift in Sources */,
 				4A8255011A7A7B3500CA8C02 /* AppDelegate.swift in Sources */,
+				4A9A6E841A7BF2FE008A9AE2 /* InfoPageViewController.swift in Sources */,
+				4A98B0731A7BFCA900B72611 /* InfoViewController.swift in Sources */,
+				4A8255211A7A7B9100CA8C02 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +292,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4A8255041A7A7B3500CA8C02 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A8255051A7A7B3500CA8C02 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4A8255091A7A7B3500CA8C02 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -407,6 +455,7 @@
 				4A82551C1A7A7B3500CA8C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A82551D1A7A7B3500CA8C02 /* Build configuration list for PBXNativeTarget "HoFAppTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +464,7 @@
 				4A82551F1A7A7B3500CA8C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
