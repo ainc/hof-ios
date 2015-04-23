@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Behind: ViewController {
+class Behind: InfoViewController {
   /*
    //var namePicked:String = "aaa"
     var name:String = ""
@@ -35,11 +35,8 @@ class Behind: ViewController {
     //var behindName = Behind(name: "famer name")
     
     //behindName.namePicked = "asdlkfhj"
- */
-    
-    //akljhf
-    var name:String 
-    
+
+   
     init(namePicked: String) {
 
         self.name = namePicked
@@ -57,9 +54,18 @@ class Behind: ViewController {
             name = namePicked
         }
     }
-   
+     */
     
+    var name:String = ""
+    
+     override func loadLabel() {
+        strName = name
+    }
 
+    func setName(namePicked: String) {
+        self.name = namePicked
+        loadLabel()
+    }
     
-    
+        
 }

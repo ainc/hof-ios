@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A00523A1AB0DA48001E9FC9 /* J_WilliamsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0052391AB0DA48001E9FC9 /* J_WilliamsVC.swift */; };
+		4A00523D1AB0E30D001E9FC9 /* J_WilliamsPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00523C1AB0E30D001E9FC9 /* J_WilliamsPage1.swift */; };
+		4A0052401AB0E3C5001E9FC9 /* CSI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A00523F1AB0E3C5001E9FC9 /* CSI.jpg */; };
+		4A0052421AB0E5D1001E9FC9 /* J_WilliamsPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0052411AB0E5D1001E9FC9 /* J_WilliamsPage2.swift */; };
+		4A0052461AB0E68A001E9FC9 /* UK Graduation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A0052431AB0E68A001E9FC9 /* UK Graduation.jpg */; };
+		4A0052471AB0E68A001E9FC9 /* 1965.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0052441AB0E68A001E9FC9 /* 1965.png */; };
+		4A0052481AB0E68A001E9FC9 /* Army Corps.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0052451AB0E68A001E9FC9 /* Army Corps.png */; };
+		4A300FFC1AE808B800DD87C3 /* FamerInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A300FFB1AE808B800DD87C3 /* FamerInformation.swift */; };
+		4A300FFE1AE80A0900DD87C3 /* TabPageOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A300FFD1AE80A0900DD87C3 /* TabPageOne.swift */; };
+		4A3010001AE80A1600DD87C3 /* TabPageTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A300FFF1AE80A1600DD87C3 /* TabPageTwo.swift */; };
 		4A8255011A7A7B3500CA8C02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8255001A7A7B3500CA8C02 /* AppDelegate.swift */; };
 		4A8255031A7A7B3500CA8C02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8255021A7A7B3500CA8C02 /* ViewController.swift */; };
 		4A8255081A7A7B3500CA8C02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8255071A7A7B3500CA8C02 /* Images.xcassets */; };
@@ -22,8 +32,6 @@
 		4A8255301A7A7BBA00CA8C02 /* Nate Morris.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8255291A7A7BBA00CA8C02 /* Nate Morris.png */; };
 		4A8255321A7A883E00CA8C02 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8255311A7A883E00CA8C02 /* CollectionHeaderView.swift */; };
 		4A98B0731A7BFCA900B72611 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98B0721A7BFCA900B72611 /* InfoViewController.swift */; };
-		4A9A6E841A7BF2FE008A9AE2 /* InfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A6E831A7BF2FE008A9AE2 /* InfoPageViewController.swift */; };
-		4AACCD1A1A8138A400116ECE /* Behind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AACCD191A8138A400116ECE /* Behind.swift */; };
 		4AACCD1C1A8146CD00116ECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AACCD1B1A8146CD00116ECE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A0052391AB0DA48001E9FC9 /* J_WilliamsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = J_WilliamsVC.swift; sourceTree = "<group>"; };
+		4A00523C1AB0E30D001E9FC9 /* J_WilliamsPage1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = J_WilliamsPage1.swift; sourceTree = "<group>"; };
+		4A00523F1AB0E3C5001E9FC9 /* CSI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CSI.jpg; sourceTree = "<group>"; };
+		4A0052411AB0E5D1001E9FC9 /* J_WilliamsPage2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = J_WilliamsPage2.swift; sourceTree = "<group>"; };
+		4A0052431AB0E68A001E9FC9 /* UK Graduation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UK Graduation.jpg"; sourceTree = "<group>"; };
+		4A0052441AB0E68A001E9FC9 /* 1965.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1965.png; sourceTree = "<group>"; };
+		4A0052451AB0E68A001E9FC9 /* Army Corps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Army Corps.png"; sourceTree = "<group>"; };
+		4A300FFB1AE808B800DD87C3 /* FamerInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamerInformation.swift; sourceTree = "<group>"; };
+		4A300FFD1AE80A0900DD87C3 /* TabPageOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPageOne.swift; sourceTree = "<group>"; };
+		4A300FFF1AE80A1600DD87C3 /* TabPageTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPageTwo.swift; sourceTree = "<group>"; };
 		4A8254FB1A7A7B3500CA8C02 /* HoFApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoFApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8254FF1A7A7B3500CA8C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A8255001A7A7B3500CA8C02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,8 +75,6 @@
 		4A8255291A7A7BBA00CA8C02 /* Nate Morris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nate Morris.png"; sourceTree = "<group>"; };
 		4A8255311A7A883E00CA8C02 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
 		4A98B0721A7BFCA900B72611 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		4A9A6E831A7BF2FE008A9AE2 /* InfoPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPageViewController.swift; sourceTree = "<group>"; };
-		4AACCD191A8138A400116ECE /* Behind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Behind.swift; sourceTree = "<group>"; };
 		4AACCD1B1A8146CD00116ECE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +96,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A0052361AB0D9D3001E9FC9 /* FamerVC's */ = {
+			isa = PBXGroup;
+			children = (
+				4A0052391AB0DA48001E9FC9 /* J_WilliamsVC.swift */,
+				4A00523B1AB0E2C6001E9FC9 /* J_WilliamsPages */,
+			);
+			name = "FamerVC's";
+			sourceTree = "<group>";
+		};
+		4A00523B1AB0E2C6001E9FC9 /* J_WilliamsPages */ = {
+			isa = PBXGroup;
+			children = (
+				4A00523E1AB0E3B5001E9FC9 /* images */,
+				4A00523C1AB0E30D001E9FC9 /* J_WilliamsPage1.swift */,
+				4A0052411AB0E5D1001E9FC9 /* J_WilliamsPage2.swift */,
+			);
+			name = J_WilliamsPages;
+			sourceTree = "<group>";
+		};
+		4A00523E1AB0E3B5001E9FC9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4A0052431AB0E68A001E9FC9 /* UK Graduation.jpg */,
+				4A0052441AB0E68A001E9FC9 /* 1965.png */,
+				4A0052451AB0E68A001E9FC9 /* Army Corps.png */,
+				4A00523F1AB0E3C5001E9FC9 /* CSI.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		4A8254F21A7A7B3500CA8C02 = {
 			isa = PBXGroup;
 			children = (
@@ -102,14 +148,16 @@
 		4A8254FD1A7A7B3500CA8C02 /* HoFApp */ = {
 			isa = PBXGroup;
 			children = (
+				4A0052361AB0D9D3001E9FC9 /* FamerVC's */,
 				4A8255001A7A7B3500CA8C02 /* AppDelegate.swift */,
+				4A300FFD1AE80A0900DD87C3 /* TabPageOne.swift */,
+				4A300FFF1AE80A1600DD87C3 /* TabPageTwo.swift */,
 				4A8255021A7A7B3500CA8C02 /* ViewController.swift */,
 				4A8255201A7A7B9100CA8C02 /* CollectionViewCell.swift */,
 				4AACCD1B1A8146CD00116ECE /* Main.storyboard */,
 				4A8255311A7A883E00CA8C02 /* CollectionHeaderView.swift */,
-				4A9A6E831A7BF2FE008A9AE2 /* InfoPageViewController.swift */,
 				4A98B0721A7BFCA900B72611 /* InfoViewController.swift */,
-				4AACCD191A8138A400116ECE /* Behind.swift */,
+				4A300FFB1AE808B800DD87C3 /* FamerInformation.swift */,
 				4A8255071A7A7B3500CA8C02 /* Images.xcassets */,
 				4A8255091A7A7B3500CA8C02 /* LaunchScreen.xib */,
 				4A8254FE1A7A7B3500CA8C02 /* Supporting Files */,
@@ -236,7 +284,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0052401AB0E3C5001E9FC9 /* CSI.jpg in Resources */,
 				4A82552B1A7A7BBA00CA8C02 /* Chris Sullivan.jpg in Resources */,
+				4A0052461AB0E68A001E9FC9 /* UK Graduation.jpg in Resources */,
+				4A0052481AB0E68A001E9FC9 /* Army Corps.png in Resources */,
+				4A0052471AB0E68A001E9FC9 /* 1965.png in Resources */,
 				4AACCD1C1A8146CD00116ECE /* Main.storyboard in Resources */,
 				4A82552E1A7A7BBA00CA8C02 /* John Williams.jpg in Resources */,
 				4A82552F1A7A7BBA00CA8C02 /* Junior Bridgeman.jpg in Resources */,
@@ -263,11 +315,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AACCD1A1A8138A400116ECE /* Behind.swift in Sources */,
+				4A00523A1AB0DA48001E9FC9 /* J_WilliamsVC.swift in Sources */,
 				4A8255031A7A7B3500CA8C02 /* ViewController.swift in Sources */,
+				4A3010001AE80A1600DD87C3 /* TabPageTwo.swift in Sources */,
+				4A0052421AB0E5D1001E9FC9 /* J_WilliamsPage2.swift in Sources */,
+				4A300FFC1AE808B800DD87C3 /* FamerInformation.swift in Sources */,
+				4A00523D1AB0E30D001E9FC9 /* J_WilliamsPage1.swift in Sources */,
 				4A8255321A7A883E00CA8C02 /* CollectionHeaderView.swift in Sources */,
 				4A8255011A7A7B3500CA8C02 /* AppDelegate.swift in Sources */,
-				4A9A6E841A7BF2FE008A9AE2 /* InfoPageViewController.swift in Sources */,
+				4A300FFE1AE80A0900DD87C3 /* TabPageOne.swift in Sources */,
 				4A98B0731A7BFCA900B72611 /* InfoViewController.swift in Sources */,
 				4A8255211A7A7B9100CA8C02 /* CollectionViewCell.swift in Sources */,
 			);

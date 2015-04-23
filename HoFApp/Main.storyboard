@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C99d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2dl-mc-NGF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2dl-mc-NGF">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="xYL-hu-mpS">
             <objects>
-                <navigationController id="2dl-mc-NGF" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FamerStoryboard" id="2dl-mc-NGF" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ia2-L7-OeC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -19,12 +19,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kxN-Mo-bSG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-390" y="399"/>
+            <point key="canvasLocation" x="-402" y="399"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HoFApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FamerViewStoryboard" id="BYZ-38-t0r" customClass="ViewController" customModule="HoFApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -59,7 +59,7 @@
                                                         <constraint firstAttribute="height" constant="21" id="GS3-Ac-Pal"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Rh-FL-As4">
@@ -87,7 +87,7 @@
                                             <outlet property="btnCell" destination="9Rh-FL-As4" id="Vst-wN-NBE"/>
                                             <outlet property="imgCell" destination="aRa-Uf-xdG" id="J24-N0-nqf"/>
                                             <outlet property="lblCell" destination="tQ9-Ef-pnR" id="oli-2P-He3"/>
-                                            <segue destination="UtW-F3-fmB" kind="presentation" id="7rc-Q0-Iwy"/>
+                                            <segue destination="95c-f7-kJ4" kind="unwind" identifier="PassName" unwindAction="selectedName:" id="Hhv-hQ-gSn"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -98,7 +98,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Categories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQZ-Kk-XcE">
                                             <rect key="frame" x="201" y="4" width="199" height="42"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -127,13 +127,140 @@
                     <navigationItem key="navigationItem" id="vXx-GN-yUN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="95c-f7-kJ4" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="378" y="399"/>
+            <point key="canvasLocation" x="254" y="1539"/>
+        </scene>
+        <!--WilliamsVC-->
+        <scene sceneID="UGC-FD-mNx">
+            <objects>
+                <viewController id="sWm-iF-z0G" customClass="J_WilliamsVC" customModule="HoFApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CYU-yS-FO7"/>
+                        <viewControllerLayoutGuide type="bottom" id="JVX-0L-QCh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Klu-iV-o7t">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="dataSource" destination="Klu-iV-o7t" id="QLS-EL-78n"/>
+                        <outlet property="delegate" destination="Klu-iV-o7t" id="iA4-nd-wBN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cwP-f7-twj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1082" y="607"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="rlk-yC-tnt">
+            <objects>
+                <viewController id="RiX-HU-gdT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bHA-Bk-kAN"/>
+                        <viewControllerLayoutGuide type="bottom" id="UzT-0n-dA4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZTX-z3-ddd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JIq-bP-0rv">
+                                <rect key="frame" x="16" y="28" width="200" height="200"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lma-ZU-11e">
+                                <rect key="frame" x="384" y="28" width="200" height="200"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wer-xU-9eY">
+                                <rect key="frame" x="16" y="290" width="200" height="239"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZBs-Js-iH6">
+                                <rect key="frame" x="384" y="290" width="200" height="239"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="MbL-Dg-vpw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uz9-7l-5gc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1834" y="1975"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="SXc-v5-EpC">
+            <objects>
+                <viewController id="oFc-ag-IYL" customClass="TabPageOne" customModule="HoFApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0aS-8U-KM3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xd8-8H-Zmo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a0l-gW-rTi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3DH-XW-Wne">
+                                <rect key="frame" x="16" y="20" width="200" height="200"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hdu-vr-YXd">
+                                <rect key="frame" x="384" y="20" width="200" height="200"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oxz-vj-GVO">
+                                <rect key="frame" x="16" y="282" width="200" height="239"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wcv-eA-O7k">
+                                <rect key="frame" x="384" y="282" width="200" height="239"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="MqI-3N-6yF"/>
+                    <connections>
+                        <outlet property="textField1" destination="oxz-vj-GVO" id="9Ed-T4-FGj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nRG-m4-Wej" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1834" y="1311"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="26D-nu-Bgw">
+            <objects>
+                <tabBarController id="kzA-OB-tYb" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="a7c-FB-g1T">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oFc-ag-IYL" kind="relationship" relationship="viewControllers" id="5Im-X4-Y1n"/>
+                        <segue destination="RiX-HU-gdT" kind="relationship" relationship="viewControllers" id="7Ry-0A-2KU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qXm-rv-cov" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="958" y="1545"/>
         </scene>
         <!--Info View Controller-->
         <scene sceneID="nbf-b1-HI0">
             <objects>
-                <viewController id="UtW-F3-fmB" customClass="InfoViewController" customModule="HoFApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FamerInfoStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UtW-F3-fmB" customClass="InfoViewController" customModule="HoFApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nkJ-yB-6Ez"/>
                         <viewControllerLayoutGuide type="bottom" id="1rm-M7-ov3"/>
@@ -145,7 +272,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCo-RY-JAU">
                                 <rect key="frame" x="277" y="289" width="46" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -161,7 +288,112 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kJU-8Q-HPO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1216" y="399"/>
+            <point key="canvasLocation" x="1082" y="-133"/>
+        </scene>
+        <!--Williams Page1-->
+        <scene sceneID="hB9-42-Ydd">
+            <objects>
+                <viewController id="d9o-HH-I77" customClass="J_WilliamsPage1" customModule="HoFApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cms-ga-Eso"/>
+                        <viewControllerLayoutGuide type="bottom" id="s4u-06-I7A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TmW-Fp-nWF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="John Williams.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gRV-v1-gLq">
+                                <rect key="frame" x="16" y="20" width="200" height="200"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3XJ-5L-DvY">
+                                <rect key="frame" x="329" y="252" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">John A. Williams, of Paducah, founded Computer Services, Inc. in 1965. He became President of the company in 1968, and has served as its board chairman since 1979.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ume-EV-jJ1">
+                                <rect key="frame" x="329" y="398" width="240" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Williams has also served on the board for a diverse slew of companies and organizations including the Paducah Area Chamber of Commerce, the Kentucky Chamber of Commerce, and the Association of Financial Technology.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CSI.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Kku-s0-yR3">
+                                <rect key="frame" x="247" y="52" width="322" height="155"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4hF-XS-PuL">
+                                <rect key="frame" x="16" y="409" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Computer Services, Inc. is an informations technology company that provides data processing and other technology services to financial institutions and large companies.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F9i-Kl-bx6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1838" y="593"/>
+        </scene>
+        <!--Williams Page2-->
+        <scene sceneID="cwG-qJ-aak">
+            <objects>
+                <viewController id="d9x-so-gdL" customClass="J_WilliamsPage2" customModule="HoFApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0CR-qF-YEt"/>
+                        <viewControllerLayoutGuide type="bottom" id="KpF-yD-D7H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eAY-se-dCh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UK Graduation.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lNb-p6-8oF">
+                                <rect key="frame" x="0.0" y="59" width="150" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Army Corps.png" translatesAutoresizingMaskIntoConstraints="NO" id="LWK-m9-glC">
+                                <rect key="frame" x="250" y="59" width="100" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1965.png" translatesAutoresizingMaskIntoConstraints="NO" id="bSV-G8-cvk">
+                                <rect key="frame" x="427" y="59" width="150" height="150"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kpw-VB-UrI">
+                                <rect key="frame" x="0.0" y="258" width="150" height="200.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Williams graduated from the University of Kentucky in 1962 with a B.S. in Accounting and Economics, and worked with Arthur Andersen &amp; Co after graduating before leaving for the army.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7ZL-tM-8ay">
+                                <rect key="frame" x="427" y="258" width="150" height="185"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">After returning from Germany, Williams went on to found Computer Services, Inc. in 1965. By 1968, CSI had a staff of 19 and was serving 21 banks in a 75-mile radius of Paducah.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wYr-iN-1bq">
+                                <rect key="frame" x="225" y="258" width="150" height="298"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">After college, Williams worked in the U.S. Army Signal Corps because he had been a part of UK's ROTC program. For two years, he helped with development of experimental data processing systems while at the 7th Army Headquarters when it was located in Stuttgart, Germany.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PNC-yk-b5y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2488" y="593"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1965.png" width="162" height="156"/>
+        <image name="Army Corps.png" width="92" height="156"/>
+        <image name="CSI.jpg" width="400" height="183"/>
+        <image name="John Williams.jpg" width="184" height="177"/>
+        <image name="UK Graduation.jpg" width="162" height="156"/>
+    </resources>
 </document>

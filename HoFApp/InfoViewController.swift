@@ -9,12 +9,8 @@
 import UIKit
 
 class InfoViewController: UIViewController {
-    //var behind = Behind()
     
-    
-    var viewController = ViewController()
-    
-    //var behind = Behind()
+   
     
     var strName = "bbb"
     
@@ -24,14 +20,12 @@ class InfoViewController: UIViewController {
         
         super.viewDidLoad()
         
-        //strName = behind.namePicked
+        //strName = famerInfo.name
         
-        //strName = namePicked
-        
-        println(strName)
+        //println(strName)
         
         
-        lblNameInfo.text = strName
+        //lblNameInfo.text = strName
 
         // Do any additional setup after loading the view.
     }
@@ -59,7 +53,10 @@ class InfoViewController: UIViewController {
         println(strName)
         
         lblNameInfo.text = strName
+        
+        
     }
+    
     
 
     /*
